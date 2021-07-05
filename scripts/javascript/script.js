@@ -22,6 +22,7 @@ function nav(){
         // hides all section
         for(let i = 0; i < sections.length; i++){
             sections[i].classList.remove("show");
+            sections[i].classList.add("hide");
         }
         sections[section_index].classList.add("show");
     }

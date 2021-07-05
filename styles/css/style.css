@@ -10,6 +10,7 @@ html {
   max-width: 100vw;
   min-height: 100vh;
   font-size: 16px;
+  font-family: 'Inter', sans-serif;
 }
 body {
   height: auto;
@@ -94,10 +95,14 @@ button.nav-btn {
 }
 li.active button.nav-btn {
   color: #222222;
+  font-weight: bold;
 }
 span.nav-icon {
   display: inline-block;
   margin-right: 1rem;
+}
+span.nav-title{
+  font-family: 'Inter', sans-serif;
 }
 /* Main */
 main{
@@ -109,8 +114,57 @@ section{
     min-height: 100%;
     padding: 1rem;
     background-color: #e6e6e6;
+    border-radius: 0.5rem;
+}
+section.hide{
     display: none;
 }
 section.show{
     display: block;
 }
+h2.section-heading{
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+}
+/* Home Section */
+section#home.show{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.125fr 1fr;
+    gap: 0.5rem;
+}
+article.home-content{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+div.home-details{
+    
+}
+div.home-image{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+}
+div.home-qna{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+
+div.home-qna p{
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+/* Fonts Reference */
+/* 
+
+font-family: 'Inter', sans-serif; // 300, 500
+
+font-family: 'Ubuntu', sans-serif; // 300, 500
+
+*/
