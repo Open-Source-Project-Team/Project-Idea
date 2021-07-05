@@ -160,6 +160,46 @@ div.home-qna p{
     font-size: 1.125rem;
     line-height: 2rem;
 }
+/* Idea Section */
+section#idea.show{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.125fr 1fr;
+  gap: 0.5rem;
+}
+article.idea-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+p.idea-desc-tile{
+  font-size: 1.125rem;
+  margin: 1rem 0.5rem;
+}
+ul.idea-desc-list{
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  list-style-type: none;
+}
+li.idea-desc-container{
+  margin: 1rem 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+i.check-mark{
+  display: inline-block;
+  margin-right: 1rem;
+  color: rgb(7, 11, 214);
+}
+p.idea-desc{
+  font-size: 1.0125rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
 /* Fonts Reference */
 /* 
 
