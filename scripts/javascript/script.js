@@ -1,3 +1,4 @@
+alert("This webpage is not mobile responsive. I couldn't get to make it responsive due to shortage of time. I kindly request you to view it in a PC");
 // Makes navbar dynamic
 function nav(){
     // select nav button container ( The <li> tag)
