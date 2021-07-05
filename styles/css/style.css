@@ -139,9 +139,6 @@ article.home-content{
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
 }
-div.home-details{
-    
-}
 div.home-image{
     display: grid;
     grid-template-columns: 1fr;
@@ -166,6 +163,11 @@ section#idea.show{
   grid-template-columns: 1fr;
   grid-template-rows: 0.125fr 1fr;
   gap: 0.5rem;
+}
+div.idea-image{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
 }
 article.idea-content{
   display: grid;
@@ -199,7 +201,58 @@ p.idea-desc{
   line-height: 1.5rem;
   text-align: left;
 }
+/* Contribute Section */
+section#contribute.show{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.125fr 1fr;
+  gap: 0.5rem;
+}
+article.contribute-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+div.contribute-image{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+}
+div.contribute-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h2.article-title{
+  flex: 0.25;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.contribute-desc{
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 1.5rem;
+  align-content: center;
+}
 
+div.contribute-desc > p{
+  font-size: 1.125rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+a.contribute-btn{
+padding: 1rem 1.5rem;
+background-color: rgb(7, 11, 214);
+color: #fdfdfd;
+text-decoration: none;
+text-align: center;
+border-radius: 0.5rem;
+}
 /* Fonts Reference */
 /* 
 
