@@ -13,6 +13,17 @@ function nav(){
         }
         // activates the clicked nav btn
         nav_btn_li[class_index].classList.add("active");
+        show_content(class_index);
+    }
+    // shows content based on active nav btn
+    function show_content(section_index){
+        // selects all section
+        var sections = document.querySelectorAll("section");
+        // hides all section
+        for(let i = 0; i < sections.length; i++){
+            sections[i].classList.remove("show");
+        }
+        sections[section_index].classList.add("show");
     }
 }
 nav();
