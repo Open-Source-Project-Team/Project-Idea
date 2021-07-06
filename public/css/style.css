@@ -90,7 +90,7 @@ button.nav-btn {
   background-color: transparent;
   color: #fdfdfd;
   border: none;
-  font-size: 1.0125rem;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 li.active button.nav-btn {
@@ -154,7 +154,7 @@ div.home-qna{
 }
 
 div.home-qna p{
-    font-size: 1.125rem;
+    font-size: 1.35rem;
     line-height: 2rem;
 }
 /* Idea Section */
@@ -177,7 +177,7 @@ article.idea-content{
   align-content: center;
 }
 p.idea-desc-tile{
-  font-size: 1.125rem;
+  font-size: 1.35rem;
   margin: 1rem 0.5rem;
 }
 ul.idea-desc-list{
@@ -197,7 +197,7 @@ i.check-mark{
   color: rgb(7, 11, 214);
 }
 p.idea-desc{
-  font-size: 1.0125rem;
+  font-size: 1.3rem;
   line-height: 1.5rem;
   text-align: left;
 }
@@ -241,7 +241,7 @@ div.contribute-desc{
 }
 
 div.contribute-desc > p{
-  font-size: 1.125rem;
+  font-size: 1.35rem;
   line-height: 2rem;
   text-align: justify;
 }
@@ -287,7 +287,7 @@ div.info-desc{
   align-content: center;
 }
 div.info-desc > p{
-  font-size: 1.125rem;
+  font-size: 1.35rem;
   line-height: 2rem;
   text-align: justify;
 }
